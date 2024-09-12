@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap"
+        rel="stylesheet">
+    <title>A Jornada do Reino Sombrio</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/castelo-01.jpg" alt="">
+            <p>Em uma noite chuvosa, enquanto explorava um castelo abandonado nas colinas, você encontrou um mapa
+                antigo. Ele leva ao lendário Reino Sombrio, perdido nas brumas do tempo. Dizem que quem o encontrar
+                poderá desvendar os segredos do universo. Sua jornada começa agora.</p>
+            <button class="btn-proximo" data-proximo="1">Seguir o mapa</button>
+            <button class="btn-proximo" data-proximo="2">Ignorar e continuar explorando o castelo</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/floresta-encantada-02.avif" alt="">
+            <p>Seguindo o mapa, você chega a uma floresta encantada, onde árvores falam e criaturas mágicas espreitam.
+                Um gnomo aparece, oferecendo ajuda para guiar você por um caminho mais curto.</p>
+            <button class="btn-proximo" data-proximo="3">Aceitar a ajuda do gnomo</button>
+            <button class="btn-proximo" data-proximo="4">Recusar e seguir o caminho marcado no mapa</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Enquanto explora o castelo, você encontra uma sala secreta cheia de espelhos. Um dos espelhos começa a
+                brilhar intensamente, refletindo um portal para outra dimensão. Você sente uma energia poderosa vinda de
+                lá.</p>
+            <button class="btn-proximo" data-proximo="5">Entrar no portal</button>
+            <button class="btn-proximo" data-proximo="6">Sair da sala e voltar à segurança</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="img/gnomo-03.webp" alt="">
+            <p>O gnomo guia você por um caminho misterioso até um antigo santuário. Lá, uma pedra mágica repousa,
+                brilhando suavemente. Ele lhe diz que essa pedra abrirá a porta para o Reino Sombrio, mas apenas se
+                usada corretamente.</p>
+            <button class="btn-proximo" data-proximo="7">Pegar a pedra e continuar a jornada</button>
+            <button class="btn-proximo" data-proximo="8">Deixar a pedra e buscar outra maneira</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/rio-04.webp" alt="">
+            <p>Ao seguir o mapa sozinho, você chega a um rio de águas negras, que bloqueia o seu caminho. Uma velha
+                ponte de madeira atravessa o rio, mas parece instável. Ao lado, um barco pequeno, porém resistente, está
+                amarrado à margem.</p>
+            <button class="btn-proximo" data-proximo="7">Atravessar pela ponte</button>
+            <button class="btn-proximo" data-proximo="8">Usar o barco</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Ao atravessar o portal, você chega a um vasto deserto de cinzas, onde ventos uivantes carregam ecos de
+                vozes esquecidas. Ao longe, você avista uma torre solitária que parece ser a origem do chamado
+                misterioso.</p>
+            <button class="btn-proximo" data-proximo="9">Ir até a torre</button>
+            <button class="btn-proximo" data-proximo="10">Ignorar a torre e seguir em frente</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você decide não entrar no portal e deixa a sala. No entanto, ao virar o corredor, uma figura sombria
+                aparece, sussurrando segredos proibidos. Ela oferece um artefato que pode guiar você diretamente ao
+                Reino Sombrio.</p>
+            <button class="btn-proximo" data-proximo="9">Aceitar o artefato</button>
+            <button class="btn-proximo" data-proximo="10">Recusar e continuar sua jornada</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Atravessando a ponte/barco ou usando a pedra mágica, você chega às portas do Reino Sombrio. Elas são
+                enormes e antigas, com runas inscritas que você mal consegue decifrar. Você sente que algo muito antigo
+                o observa de dentro.</p>
+            <button class="btn-proximo" data-proximo="9">Abrir as portas e entrar</button>
+            <button class="btn-proximo" data-proximo="10">Esperar por mais sinais</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Decidindo seguir sem a pedra ou pela água, você acaba se perdendo em um labirinto de árvores que parecem
+                se mover. Tudo ao seu redor começa a mudar, e você percebe que está sendo testado pela floresta. Só há
+                uma saída: resolver o enigma que ela apresenta.</p>
+            <button class="btn-proximo" data-proximo="9">Resolver o enigma</button>
+            <button class="btn-proximo" data-proximo="10">Desistir e voltar pelo caminho de volta</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você finalmente entra no Reino Sombrio. O ambiente é diferente de tudo o que você já viu: o céu é roxo, o
+                chão parece feito de cristal, e criaturas fantásticas caminham livremente. Você sente que seu destino
+                está prestes a se cumprir.</p>
+            <button class="btn-proximo" data-proximo="10">Explorar o reino em busca de respostas</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Sua jornada chegou ao fim. As decisões que tomou ao longo do caminho moldaram seu destino. O Reino
+                Sombrio está agora em suas mãos. Como você escolhe governar ou lidar com o poder e os mistérios que
+                descobriu?</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
